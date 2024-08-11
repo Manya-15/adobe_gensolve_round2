@@ -30,7 +30,7 @@ def augment_images(image_dir, save_to_dir, num_augmented_images=5):
                 break
 
 # Apply augmentation on each shape folder
-shapes = ['rectangle', 'ellipse', 'rounded_rectangle', 'pentagon', 'star']
+shapes = ['rectangle', 'ellipse', 'rounded_rectangle']
 for shape in shapes:
     image_dir = f'shapes_dataset/{shape}'
     augment_images(image_dir, image_dir)  # Save augmented images in the same directory
