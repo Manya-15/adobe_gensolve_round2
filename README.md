@@ -39,7 +39,8 @@ This repository contains scripts and datasets for detecting shapes, finding line
 
 5. **Predict Shapes**:
    - Run `display_model.py` to predict the shapes in input images, providing a solution to Problem 1.
-![](https://github.com/Manya-15/AI-KODA/blob/main/assets/page6img.png)
+![](https://github.com/Manya-15/adobe_sub/blob/main/assets/shape_detection.jpg)
+![](https://github.com/Manya-15/adobe_sub/blob/main/assets/sd2.jpg)
 
 ## Problem 2: Symmetry Detection
 
@@ -47,9 +48,12 @@ This repository contains scripts and datasets for detecting shapes, finding line
 1. **Find Lines of Symmetry**:
    - Run `symmetry.py` to identify lines of symmetry in each shape present in an input image.
    - View the lines of symmetry with labels on the diagram, and check the terminal output for the names of the lines that are actual symmetries.
+![](https://github.com/Manya-15/adobe_sub/blob/main/assets/symmetry.jpg)
+As shown in this example the terminal outputed `L1,L2,L3,L4`, `L8`,`L11,L12,L13,L14` as the lines of symmetry.
 
 ## Problem 3: Shape Completion (Occlusion)
 
 ### Steps:
 1. **Complete Occluded Shapes**:
    - Run `occlusion.py` to complete the shapes in the input image where parts of the shapes may be missing or occluded.
+![](https://github.com/Manya-15/adobe_sub/blob/main/assets/occlusion.jpg) 
